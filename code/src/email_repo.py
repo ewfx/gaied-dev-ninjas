@@ -1,4 +1,4 @@
-import jaydebeapi # type: ignore
+import sqlite3
 from sqlight_db_config import SQLiteDBConfig as DBConfig
 from email_dto import Email
 
@@ -14,7 +14,7 @@ class EmailRepo:
             (email.sender, email.recipient, email.subject, email.body, email.s3_message_path, email.request_type, email.sub_request_type, email.processing_status, email.has_attachment, email.attachment_metadata))
             self.db_config.conn.commit()
             print("Email inserted successfully")
-        except jaydebeapi.DatabaseError as e:
+        except sqlite3.DatabaseError as e:
             print(f"Error inserting email: {e}")
     
     def update_email(self, email: Email):
@@ -25,7 +25,7 @@ class EmailRepo:
             (email.sender, email.recipient, email.subject, email.body, email.s3_message_path, email.request_type, email.sub_request_type, email.processing_status, email.has_attachment, email.attachment_metadata, email.email_id))
             self.db_config.conn.commit()
             print("Email updated successfully")
-        except jaydebeapi.DatabaseError as e:
+        except sqlite3.DatabaseError as e:
             print(f"Error updating email: {e}")
     
     def get_email(self, email_id: int):
@@ -37,7 +37,7 @@ class EmailRepo:
             if row:
                 print("Email found for id: ", email_id)
                 return EmailRepo.build_email_dto(row)
-        except jaydebeapi.DatabaseError as e:
+        except sqlite3.DatabaseError as e:
             print(f"Error fetching email: {e}")
         return None
     
@@ -48,7 +48,7 @@ class EmailRepo:
             "REQUEST_TYPE, SUB_REQUEST_TYPE, PROCESSING_STATUS, HAS_ATTACHMENTS, ATTACHMENT_METADATA FROM EMAIL")
             rows = self.db_config.cursor.fetchall()
             return [EmailRepo.build_email_dto(row) for row in rows]
-        except jaydebeapi.DatabaseError as e:
+        except sqlite3.DatabaseError as e:
             print(f"Error fetching all emails: {e}")
             return []
     
