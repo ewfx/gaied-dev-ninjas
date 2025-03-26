@@ -8,14 +8,18 @@ class EmailRepo:
     
     def insert_email(self, email: Email):
         try:
-            self.db_config.cursor.execute("INSERT INTO EMAIL (SENDER, RECIEPIENT, SUBJECT, BODY, "
+            row = self.db_config.cursor.execute("INSERT INTO EMAIL (SENDER, RECIEPIENT, SUBJECT, BODY, "
             "S3_MESSAGE_PATH, REQUEST_TYPE, SUB_REQUEST_TYPE, PROCESSING_STATUS, HAS_ATTACHMENTS, ATTACHMENT_METADATA, CREATED_AT) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, strftime('%s','now'))",
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, strftime('%s','now')) RETURNING EMAIL_ID",
             (email.sender, email.recipient, email.subject, email.body, email.s3_message_path, email.request_type, email.sub_request_type, email.processing_status, email.has_attachment, email.attachment_metadata))
-            self.db_config.conn.commit()
-            print("Email inserted successfully")
+            if row:
+                email_id = int(row.fetchone()[0])
+                print("Email INSERTED with email_id:", email_id)
+                self.db_config.conn.commit()
+                return email_id
         except sqlite3.DatabaseError as e:
             print(f"Error inserting email: {e}")
+        return None
     
     def update_email(self, email: Email):
         try:
