@@ -1,0 +1,55 @@
+From: noreply@xyzbank.com
+To: johndoe@example.com
+Subject: Loan Approval Notification - Application #123456
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2131304107767552804=="
+
+--===============2131304107767552804==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mr. Doe,
+
+We are pleased to inform you that your loan application #123456 has been appr=
+oved.
+Please find attached your loan approval notice with detailed terms and condit=
+ions.
+
+Should you have any questions, feel free to contact our loan servicing team.
+
+Best regards,
+XYZ Bank, N.A.
+
+--===============2131304107767552804==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Loan_Approval_Notice.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggNDg0Pj4Kc3RyZWFtCnicfZNBb9QwEIXv/RVzAAmk3cFx4jjZW6sWqRVbVTRS
+gZs38W5csnawHar99zjOIkCuuEWeb/ye30wo3F0QZBxeLq4a+PAxg4wiIdDs4aaZj/IMsxp4zZBz
+aDp49+XrN7gS+vsK7vES30Pz/C9ZcixoJD8ZoeFajsL6o9Q+RTOCPI/otfByAxlZb4VdU0JZApcV
+xbyKcGM2sLUId6YP9xuZsqxAslz8OO2eZes3EM1cjqM1P8UA98arNm1kNce8WBxJYaNKEFilYEGw
+ZBF8kiCshHGQwskOvAGl98Ye4WQm8L3w84cFMY6DaoVXRkMog4BRWmd0MDPM1swe3jCyIiH7XjjY
+SannnmBXdghNLxfsRQ1DKEKn3G6yZ8EoYOVBOS9tOBJtaybtA+x7pYHCbnJKS+egEyeXzqyocqzL
+v2fmhRrcJgUZwzKL4Pqc6HFW2vz2nnZQjrQ8d9zq2Z/z8DmOmyN7CyOK1FBeV1jTc1cj9WQDXhI4
+Gu17l+I8rvCC32xvg50suKHIypTNcqyWPXqII4O90iEy70Xbh+xiljFqcbBSzosLIgDG93IO+cek
+5og7005z7ZU0KeOYLQqPSrfhxcMp3SBKK6yKP5k/WNOGCSl9CA8Wx5QnBIv6P3/gL6IkC5oKZW5k
+c3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8L1R5cGUgL1BhZ2VzCi9LaWRzIFszIDAgUiBdCi9Db3Vu
+dCAxCi9NZWRpYUJveCBbMCAwIDU5NS4yOCA4NDEuODldCj4+CmVuZG9iago1IDAgb2JqCjw8L1R5
+cGUgL0ZvbnQKL0Jhc2VGb250IC9IZWx2ZXRpY2EKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAv
+V2luQW5zaUVuY29kaW5nCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9Qcm9jU2V0IFsvUERGIC9UZXh0
+IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQovRm9udCA8PAovRjEgNSAwIFIKPj4KL1hPYmplY3Qg
+PDwKPj4KPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1Byb2R1Y2VyIChQeUZQREYgMS43LjIgaHR0cDov
+L3B5ZnBkZi5nb29nbGVjb2RlLmNvbS8pCi9DcmVhdGlvbkRhdGUgKEQ6MjAyNTAzMjIxMjUxNDYp
+Cj4+CmVuZG9iago3IDAgb2JqCjw8Ci9UeXBlIC9DYXRhbG9nCi9QYWdlcyAxIDAgUgovT3BlbkFj
+dGlvbiBbMyAwIFIgL0ZpdEggbnVsbF0KL1BhZ2VMYXlvdXQgL09uZUNvbHVtbgo+PgplbmRvYmoK
+eHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwNjQxIDAwMDAwIG4gCjAwMDAwMDA4
+MjQgMDAwMDAgbiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMDg3IDAwMDAwIG4gCjAwMDAw
+MDA3MjggMDAwMDAgbiAKMDAwMDAwMDkyOCAwMDAwMCBuIAowMDAwMDAxMDM3IDAwMDAwIG4gCnRy
+YWlsZXIKPDwKL1NpemUgOAovUm9vdCA3IDAgUgovSW5mbyA2IDAgUgo+PgpzdGFydHhyZWYKMTE0
+MAolJUVPRgo=
+
+--===============2131304107767552804==--
