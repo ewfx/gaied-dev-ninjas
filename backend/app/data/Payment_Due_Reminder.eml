@@ -1,0 +1,53 @@
+From: noreply@xyzbank.com
+To: johndoe@example.com
+Subject: Reminder: Upcoming Loan Payment Due - Loan #123456
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7181836938545370161=="
+
+--===============7181836938545370161==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mr. Doe,
+
+This is a reminder that your loan payment for Loan #123456 is due on 20-Mar-2=
+025.
+Please ensure sufficient funds are available to avoid late fees.
+
+Attached is a detailed notice regarding your upcoming payment.
+
+Best regards,
+Loan Servicing Team
+XYZ Bank, N.A.
+
+--===============7181836938545370161==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Payment_Due_Reminder.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggNDEwPj4Kc3RyZWFtCnicjZJLb9swEITv+RUDtIcWsFmKelm+xXBySJuiaHRo
+e2OklcVEIh0+Uvjfl5GSAIVSoIBO2sHMN8sVuDrjLC/x+2xX49NlgkQwzlF3uKiffqUJSyqUVc7K
+EnWLDz9+/sJO6vsVvrJz9hH13d/KomSZmJRfjNS4IfuoGqUPqEmOS3nCWZlO8r30tEWSr6+lXQsu
+8oW42AiWbiZxbba4tgxXptfYG1pq84zx2fgm3N5R47f4Jk8jaY99IHynUemWLNaYOM+bxoQ4e5eI
+NMuLhV9elSzNZlCSdgqPuaulMOOsyGfIXjnET6KzinQ7nGBfYn0vPU4mWIxG+z6OlHZeDsNEaDq8
+T1acC5YX6Ix9k/HJuo1VjIbgr1tj+KymKNIuWJqDfE8x+iEoSy26oNsIFWfyUapB3g4Uw2cY+Rzh
+TRwa1WKIr4Lj8+KaXtoDueWrZ5uUVcVU+jLSSn3CQ6BY2q1wHEg6QhNryiZWiylNcN6McQsuHI/G
++jcMRcnEbLgj5yP8QdrWLdedVhtW/f+9peV07f8+5D9Yzt8LCmVuZHN0cmVhbQplbmRvYmoKMSAw
+IG9iago8PC9UeXBlIC9QYWdlcwovS2lkcyBbMyAwIFIgXQovQ291bnQgMQovTWVkaWFCb3ggWzAg
+MCA1OTUuMjggODQxLjg5XQo+PgplbmRvYmoKNSAwIG9iago8PC9UeXBlIC9Gb250Ci9CYXNlRm9u
+dCAvSGVsdmV0aWNhCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwo+
+PgplbmRvYmoKMiAwIG9iago8PAovUHJvY1NldCBbL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMg
+L0ltYWdlSV0KL0ZvbnQgPDwKL0YxIDUgMCBSCj4+Ci9YT2JqZWN0IDw8Cj4+Cj4+CmVuZG9iago2
+IDAgb2JqCjw8Ci9Qcm9kdWNlciAoUHlGUERGIDEuNy4yIGh0dHA6Ly9weWZwZGYuZ29vZ2xlY29k
+ZS5jb20vKQovQ3JlYXRpb25EYXRlIChEOjIwMjUwMzIyMTI1MTQ2KQo+PgplbmRvYmoKNyAwIG9i
+ago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMSAwIFIKL09wZW5BY3Rpb24gWzMgMCBSIC9GaXRI
+IG51bGxdCi9QYWdlTGF5b3V0IC9PbmVDb2x1bW4KPj4KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAw
+MDAgNjU1MzUgZiAKMDAwMDAwMDU2NyAwMDAwMCBuIAowMDAwMDAwNzUwIDAwMDAwIG4gCjAwMDAw
+MDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA4NyAwMDAwMCBuIAowMDAwMDAwNjU0IDAwMDAwIG4gCjAw
+MDAwMDA4NTQgMDAwMDAgbiAKMDAwMDAwMDk2MyAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9TaXplIDgK
+L1Jvb3QgNyAwIFIKL0luZm8gNiAwIFIKPj4Kc3RhcnR4cmVmCjEwNjYKJSVFT0YK
+
+--===============7181836938545370161==--

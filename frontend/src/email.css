@@ -1,0 +1,140 @@
+/** @format */
+
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+#root {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 80%;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 20px;
+	display: block;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f9f9f9;
+}
+
+input[readonly] {
+	background-color: #e9ecef;
+	color: #555;
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.checkbox-container input {
+	margin-right: 10px;
+}
+
+.checkbox-container label {
+	margin-top: 0;
+}
+
+.attachments {
+	margin-top: 10px;
+}
+
+.attachment-item {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+	flex-direction: column;
+}
+.attachment-header {
+	margin-top: 10px;
+	display: flex;
+	align-self: flex-start;
+	justify-content: space-between;
+}
+.attachment-item label {
+	margin-left: 5px;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+.hidden {
+	display: none;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000; /* Ensure it is above other elements */
+}
+
+.spinner {
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+	margin: 20px auto; /* Center the spinner */
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
